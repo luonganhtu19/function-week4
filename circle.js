@@ -14,7 +14,7 @@ class Circle {
     }
 }
 let circle=new Circle(2,'red');
-alert("Radius: "+ circle.radius+" ;Color: "+circle.color+" ,Area: "+circle.getArea());
+console.log("Radius: "+ circle.radius+" ;Color: "+circle.color+" ,Area: "+circle.getArea());
 circle.color="blue";
 circle.radius=4;
-alert("Radius: "+ circle.radius+" ;Color: "+circle.color+" ,Area: "+circle.getArea());
+console.log("Radius: "+ circle.radius+" ;Color: "+circle.color+" ,Area: "+circle.getArea());
