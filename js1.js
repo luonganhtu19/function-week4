@@ -36,9 +36,9 @@ let day1=date.day;
 let day=date.getDay();
 let month=date.getMonth();
 let year=date.getYear();
-alert(day+"/"+month+"/"+year);
+console.log(day+"/"+month+"/"+year);
 date.setDay(10);
 date.setMonth(10);
 date.setYear(2020);
 
-alert(date.day+"/"+date.month+"/"+date.year);
+console.log(date.day+"/"+date.month+"/"+date.year);
